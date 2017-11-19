@@ -1,0 +1,5 @@
+#!/bin/bash
+echo ============setting up docker...============
+sudo docker run -p 5432:5432 -v /var/srv/postgres-data:/var/lib/postgresql/data -e POSTGRES_USER=ischedule -e POSTGRES_PASSWORD=ischedule$ -d postgres:9.6.3-alpine&& echo &&
+sudo docker ps -a && echo &&
+cat /home/timo/setupDockerForLiveDeveloping.txt
