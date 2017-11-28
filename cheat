@@ -1,0 +1,2 @@
+#!/bin/bash
+xdg-open /home/timo/Dropbox/Dokumente_privat/ubuntu_terminal_cheatSheet.txt
