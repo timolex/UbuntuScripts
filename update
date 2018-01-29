@@ -1,5 +1,6 @@
 #!/bin/bash
 echo ============apt update:============ && sudo apt update && 
 echo ============apt upgrade:============ && sudo apt upgrade -y && 
-echo ============apt autoclean============ && sudo apt autoclean && 
+echo ============apt autoclean:============ && sudo apt autoclean && 
+echo ============apt autoremove:=========== && sudo apt autoremove && 
 echo ============This machine:============ && uname -a
