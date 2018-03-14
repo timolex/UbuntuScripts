@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo docker run -p 80:80 -e "PGADMIN_DEFAULT_EMAIL=container@pgadmin.org" -e "PGADMIN_DEFAULT_PASSWORD=Conta1ner" -d dpage/pgadmin4
+
