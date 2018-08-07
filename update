@@ -3,4 +3,5 @@ echo ============apt update:============ && sudo apt update &&
 echo ============apt upgrade:============ && sudo apt upgrade -y && 
 echo ============apt autoclean:============ && sudo apt autoclean && 
 echo ============apt autoremove:=========== && sudo apt autoremove -y && 
-echo ============This machine:============ && uname -a
+echo ============This machine:============ && uname -a && 
+echo ============neofetch:============= && neofetch
