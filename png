@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "PING Google DNS-Server:"
+ping 8.8.8.8
