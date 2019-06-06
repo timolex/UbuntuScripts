@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /home/timo/test/rambox
+git pull
+setsid npm start &
