@@ -1,4 +1,5 @@
 #!/bin/bash
 cd /home/timo/test/rambox
 git pull
+npm install
 setsid npm start &
