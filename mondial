@@ -1,2 +1,0 @@
-#!/bin/bash
-psql -h pg.ifi.uzh.ch -U s1570173 -d s1570173

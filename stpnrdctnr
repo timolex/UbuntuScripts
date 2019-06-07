@@ -1,4 +1,0 @@
-#!/bin/bash
-echo ============setting up docker...============
-systemctl start docker.service &&
-sudo docker run -p 5432:5432 -v /var/srv/postgres-data:/var/lib/postgresql/data -e POSTGRES_USER=ischedule -e POSTGRES_PASSWORD=ischedule$ -d postgres:9.6.3-alpine
